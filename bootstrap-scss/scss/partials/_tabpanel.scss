@@ -1,0 +1,32 @@
+.hidetab {
+  display: none;
+}
+.smallcard {
+  margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .smallcard {
+    display: none;
+  }
+  .hidetab {
+    display: unset;
+  }
+  .tab-content {
+    background-color: var(--background-tab-);
+  }
+  li.nav {
+    background-color: var(--background-tab-);
+  }
+  li.nav-item:active {
+    padding-bottom: 0px;
+    margin-right: 0px;
+    background-color: var(--background-tab-);
+  }
+  li.nav-item:hover {
+    background-color: var(--background-tab-);
+  }
+  button.nav-item {
+    padding: 20px;
+  }
+}

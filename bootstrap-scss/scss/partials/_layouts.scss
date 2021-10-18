@@ -1,0 +1,31 @@
+body {
+  background-color: var(--background-colour-);
+}
+h1 {
+  color: var(--headings-colour-);
+}
+p {
+  color: var(--text-colour-);
+}
+main {
+  padding: 10px 40px 150px 40px;
+}
+.carousel {
+  max-width: auto !important;
+}
+.container-lg {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px 10px 40px;
+  background-color: var(--bs-white) !important;
+  color: var(--text-colour-);
+}
+footer a {
+  text-decoration: none;
+  color: var(--text-colour-);
+}

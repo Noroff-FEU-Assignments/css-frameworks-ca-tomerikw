@@ -1,0 +1,20 @@
+.d-flex {
+  text-align: center;
+}
+.info {
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  .form-wrapper {
+    display: flex;
+  }
+  .form-input {
+    flex: 1;
+    max-width: 400px;
+  }
+  .d-flex {
+    max-width: 50%;
+    margin-left: 50px;
+  }
+}
